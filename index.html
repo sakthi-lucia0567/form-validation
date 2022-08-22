@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="error"></div>
+      <form
+        id="form"
+        action="https://cdn.pixabay.com/photo/2018/04/13/11/52/girl-3316342_1280.jpg"
+        method="GET"
+      >
+        <img src="https://bit.ly/2tlJLoz" /><br />
+        <input type="text" id="name" placeholder="name" /><br />
+        <input type="password" id="password" placeholder="password" /><br />
+        <button type="submit" onclick="formValid()" id="btn">LogIn</button>
+        <br />
+        <!-- <span><a href="/signup.html">Signup</a></span> -->
+      </form>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
