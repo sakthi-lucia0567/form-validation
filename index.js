@@ -26,7 +26,7 @@ form.addEventListener("submit", (e) => {
   }
 
   if (password.value === "password") {
-    messages.push("Password cannot be password");
+    messages.push("Password cannot be password change to something new");
   }
 
   if (messages.length > 0) {
